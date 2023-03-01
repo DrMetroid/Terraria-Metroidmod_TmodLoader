@@ -22,18 +22,6 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 
 		public override void AI()
 		{
-			if (Projectile.Name.Contains("Green"))
-			{
-				Projectile.penetrate = 6;
-			}
-			if (Projectile.Name.Contains("Nova"))
-			{
-				Projectile.penetrate = 8;
-			}
-			if (Projectile.Name.Contains("Solar"))
-			{
-				Projectile.penetrate = 12;
-			}
 			if (Projectile.Name.Contains("Spazer") || Projectile.Name.Contains("Wide") || Projectile.Name.Contains("Vortex"))
 			{
 				mProjectile.WaveBehavior(Projectile, !Projectile.Name.Contains("Wave"));
@@ -100,6 +88,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Wave Spazer Plasma Green Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class IceWaveSpazerPlasmaRedImperialistShot : ImperialistShot
@@ -116,6 +105,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Wave Plasma Green Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class IceWavePlasmaRedImperialistShot : ImperialistShot
@@ -140,6 +130,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Spazer Plasma Green Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class IceSpazerPlasmaRedImperialistShot : ImperialistShot
@@ -156,6 +147,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Plasma Green Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class IcePlasmaRedImperialistShot : ImperialistShot
@@ -188,6 +180,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Wave Spazer Plasma Green Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class WaveSpazerPlasmaRedImperialistShot : ImperialistShot
@@ -204,6 +197,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Wave Plasma Green Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class WavePlasmaRedImperialistShot : ImperialistShot
@@ -228,6 +222,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Spazer Plasma Green Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class SpazerPlasmaRedImperialistShot : ImperialistShot
@@ -238,7 +233,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 			Projectile.Name = "Spazer Plasma Red Imperialist Shot";
 		}
 	}
-	public class PlasmaGreenImperialistShot : ImperialistShot
+	public class PlasmaRedImperialistShot : ImperialistShot
 	{
 		public override void SetDefaults()
 		{
@@ -284,6 +279,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Wave Wide Nova Imperialist Shot";
+			Projectile.penetrate = 8;
 		}
 	}
 	public class IceWaveWidePlasmaGreenV2ImperialistShot : ImperialistShot
@@ -292,6 +288,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Wave Wide Plasma Green V2 Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class IceWaveWidePlasmaRedV2ImperialistShot : ImperialistShot
@@ -308,6 +305,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Wave Nova Imperialist Shot";
+			Projectile.penetrate = 8;
 		}
 	}
 	public class IceWavePlasmaGreenV2ImperialistShot : ImperialistShot
@@ -316,6 +314,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Wave Plasma Green V2 Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class IceWavePlasmaRedV2ImperialistShot : ImperialistShot
@@ -340,6 +339,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Wide Nova Imperialist Shot";
+			Projectile.penetrate = 8;
 		}
 	}
 	public class IceWidePlasmaGreenV2ImperialistShot : ImperialistShot
@@ -348,6 +348,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Wide Plasma Green V2 Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class IceWidePlasmaRedV2ImperialistShot : ImperialistShot
@@ -364,6 +365,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Nova Imperialist Shot";
+			Projectile.penetrate = 8;
 		}
 	}
 	public class IcePlasmaGreenV2ImperialistShot : ImperialistShot
@@ -372,6 +374,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Ice Plasma Green V2 Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class IcePlasmaRedV2ImperialistShot : ImperialistShot
@@ -404,6 +407,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Wave Wide Nova Imperialist Shot";
+			Projectile.penetrate = 8;
 		}
 	}
 	public class WaveWidePlasmaGreenV2ImperialistShot : ImperialistShot
@@ -412,6 +416,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Wave Wide Plasma Green V2 Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class WaveWidePlasmaRedV2ImperialistShot : ImperialistShot
@@ -428,6 +433,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Wave Nova Imperialist Shot";
+			Projectile.penetrate = 8;
 		}
 	}
 	public class WavePlasmaGreenV2ImperialistShot : ImperialistShot
@@ -436,6 +442,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Wave Plasma Green V2 Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class WavePlasmaRedV2ImperialistShot : ImperialistShot
@@ -460,6 +467,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Wide Nova Imperialist Shot";
+			Projectile.penetrate = 8;
 		}
 	}
 	public class WidePlasmaGreenV2ImperialistShot : ImperialistShot
@@ -468,6 +476,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Wide Plasma Green V2 Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class WidePlasmaRedV2ImperialistShot : ImperialistShot
@@ -484,6 +493,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Nova Imperialist Shot";
+			Projectile.penetrate = 8;
 		}
 	}
 	public class PlasmaGreenV2ImperialistShot : ImperialistShot
@@ -492,6 +502,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Plasma Green V2 Imperialist Shot";
+			Projectile.penetrate = 6;
 		}
 	}
 	public class PlasmaRedV2ImperialistShot : ImperialistShot
@@ -532,6 +543,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Stardust Nebula Vortex Solar Imperialist Shot";
+			Projectile.penetrate = 12;
 		}
 	}
 	public class StardustNebulaSolarImperialistShot : ImperialistShot
@@ -540,6 +552,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Stardust Nebula Solar Imperialist Shot";
+			Projectile.penetrate = 12;
 		}
 	}
 	public class StardustVortexImperialistShot : ImperialistShot
@@ -556,6 +569,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Stardust Vortex Solar Imperialist Shot";
+			Projectile.penetrate = 12;
 		}
 	}
 	public class StardustSolarImperialistShot : ImperialistShot
@@ -564,6 +578,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Stardust Solar Imperialist Shot";
+			Projectile.penetrate = 12;
 		}
 	}
 	public class NebulaImperialistShot : ImperialistShot
@@ -588,6 +603,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Nebula Vortex Solar Imperialist Shot";
+			Projectile.penetrate = 12;
 		}
 	}
 	public class NebulaSolarImperialistShot : ImperialistShot
@@ -596,6 +612,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Nebula Solar Imperialist Shot";
+			Projectile.penetrate = 12;
 		}
 	}
 	public class VortexImperialistShot : ImperialistShot
@@ -612,6 +629,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Vortex Solar Imperialist Shot";
+			Projectile.penetrate = 12;
 		}
 	}
 	public class SolarImperialistShot : ImperialistShot
@@ -620,6 +638,7 @@ namespace MetroidMod.Content.Projectiles.Imperialist
 		{
 			base.SetDefaults();
 			Projectile.Name = "Solar Imperialist Shot";
+			Projectile.penetrate = 12;
 		}
 	}
 }
